@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Ballot</string>
+    <array name="candidate_position">
+        <item>---select position---</item>
+        <item>Presidential</item>
+        <item>Organizing_Secretary</item>
+        <item>Academics</item>
+        <item>Treasury</item>
+        <item>Sports_and_Entertainment</item>
+        <item>Welfare</item>
+        <item>Faculty Representative</item>
+    </array>
+    <array name="candidate_faculty">
+        <item>---select faculty---</item>
+        <item>FIST</item>
+        <item>Education</item>
+        <item>Agriculture</item>
+        <item>SPASS</item>
+        <item>Law</item>
+        <item>SOBE</item>
+        <item>FASS</item>
+    </array>
+    <array name="candidate_year">
+        <item>---select year---</item>
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+    </array>
+    <string name="title_activity_user_main_account">User Account</string>
+    <string name="title_home">Union</string>
+    <string name="title_dashboard">Registered</string>
+    <string name="title_notifications">Vote Results</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+</resources>

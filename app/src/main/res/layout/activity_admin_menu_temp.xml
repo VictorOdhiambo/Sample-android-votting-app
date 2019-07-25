@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#848384"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminMenuTemp">
+
+        <LinearLayout
+            android:clipToPadding="false"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+                android:id="@+id/admin_show_current_leadership"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_margin="10dp"
+                app:cardElevation="5dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp">
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:gravity="center"
+                        android:src="@drawable/vote_13"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+                    <TextView
+                        android:text="Current Leadership"
+                        android:textStyle="bold"
+                        android:textSize="14sp"
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/admin_register_candidate"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:layout_margin="10dp"
+                app:cardElevation="5dp"
+                android:layout_width="150dp"
+                android:layout_height="150dp">
+                <LinearLayout
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:background="@drawable/register_candidate_bg"
+                        android:src="@drawable/vote_one"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp" />
+                    <TextView
+                        android:text="Register Candidates"
+                        android:textStyle="bold"
+                        android:textSize="14sp"
+                        android:padding="10dp"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    <LinearLayout
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            android:id="@+id/admin_show_registered_candidates"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_margin="10dp"
+            app:cardElevation="5dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp">
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:gravity="center"
+                    android:src="@drawable/vote_15"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp" />
+                <TextView
+                    android:text="Candidates Registered"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/admin_add_student"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_margin="10dp"
+            app:cardElevation="5dp"
+            android:layout_width="150dp"
+            android:layout_height="150dp">
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:gravity="center"
+                    android:padding="18dp"
+                    android:src="@drawable/vote_14"
+                    android:background="@drawable/add_student_bg"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp" />
+                <TextView
+                    android:text="Register New Student"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content">
+        <android.support.v7.widget.CardView
+            android:id="@+id/admin_voting_process"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:layout_margin="10dp"
+            app:cardElevation="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="130dp">
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:gravity="center"
+                    android:src="@drawable/vote_six"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp" />
+                <TextView
+                    android:text="Voting Process"
+                    android:textStyle="bold"
+                    android:textSize="14sp"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

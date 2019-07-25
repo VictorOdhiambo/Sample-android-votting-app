@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp">
+
+
+    <!--<ImageView-->
+        <!--android:id="@+id/imageView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="120dp"-->
+        <!--android:layout_margin="0dp"-->
+        <!--android:scaleType="centerCrop"-->
+        <!--android:src="@drawable/vote_bg1" />-->
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/student_profile"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="29dp"
+        android:src="@drawable/user_icon" />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/name"
+        android:layout_marginTop="40dp"
+        android:layout_below="@id/student_profile"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/student_name"
+            android:hint="Student name"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/reg"
+        android:layout_below="@id/name"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/student_regno"
+            android:hint="Student Reg no."
+            android:padding="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/pass"
+        android:layout_below="@id/reg"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/student_password"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/pass2"
+        android:layout_below="@id/pass"
+        android:layout_centerHorizontal="true"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/student_password2"
+            android:hint="Re-enter password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Spinner
+        android:id="@+id/choose_faculty"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_margin="8dp"
+        android:layout_below="@id/pass2"
+        android:entries="@array/candidate_faculty"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/sign_up"
+        android:text="Sign up"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:textColor="#fff"
+        android:background="@drawable/vote_btn_bg"
+        android:layout_below="@+id/choose_faculty"
+        android:layout_centerHorizontal="true"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_below="@+id/student_profile"
+        android:layout_marginLeft="50dp"
+        android:text="Create account"
+        android:textSize="22sp" />
+
+</RelativeLayout>

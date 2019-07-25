@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:src="@drawable/vote_three"
+        android:layout_margin="8dp"
+        android:scaleType="centerInside"
+        android:layout_width="60dp"
+        android:layout_height="40dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/registered_candidate_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="Position"
+            android:textSize="18sp"
+            android:textStyle="normal" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

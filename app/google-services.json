@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "563249387495",
+    "firebase_url": "https://ballot-597a3.firebaseio.com",
+    "project_id": "ballot-597a3",
+    "storage_bucket": "ballot-597a3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:563249387495:android:ee59beb0ed9f86e7",
+        "android_client_info": {
+          "package_name": "com.apps.odhizvic.ballot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "563249387495-1unhnpt8eac52487rf096cm4glk75qvi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.apps.odhizvic.ballot",
+            "certificate_hash": "bbe1f57ec2b063aa63ef300f48be77633ae4b4e5"
+          }
+        },
+        {
+          "client_id": "563249387495-e1ec7ao2brsaqikj2pc72id8a2jpg3q6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA17i8gZPNeV6WWxpb06IVML7hKsvP8KUc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "563249387495-e1ec7ao2brsaqikj2pc72id8a2jpg3q6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
